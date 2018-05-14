@@ -36,5 +36,5 @@ This tool is under active development and maintenance, please feel free to conta
 
 Contributors of the Case Studies:
 Case Study Three: Min Wu (min.wu@cs.ox.ac.uk)
-Case Study One, Two, Four: Wenjie Ruan (wenjie.ruan@cs.ox.ac.uk)
+Case Study One, Two and Four: Wenjie Ruan (wenjie.ruan@cs.ox.ac.uk)
 Case Study Five: Youcheng Sun (youcheng.sun@cs.ox.ac.uk)
