@@ -18,4 +18,5 @@ Parallel Computing Toolbox
 # Run
 
 For sDNN model, run “main_sDNN.m” in folder sDNN_model
+
 For DNN0 model, run “main_DNN0.m” in folder DNN0_model

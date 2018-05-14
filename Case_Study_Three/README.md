@@ -1,4 +1,6 @@
-# L0-TRE (L0 Norm Tensor-based Robustness Evaluation)
+# Case Study Three: Competitive L0 Attack 
+
+L0-TRE (L0 Norm Tensor-based Robustness Evaluation)
 
 Global Robustness Evaluation of Deep Neural Networks with Provable Guarantees for L0 Norm
 
