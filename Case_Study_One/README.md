@@ -11,8 +11,11 @@ arXiv:1804.05805 https://arxiv.org/abs/1804.05805
 # Software
 
 Matlab 2018a
+
 Neural Network Toolbox
+
 Image Processing Toolbox
+
 Parallel Computing Toolbox
 
 # Run
