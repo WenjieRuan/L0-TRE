@@ -1,6 +1,6 @@
-# L0-TRE (L0 Norm Tensor-based Robustness Evaluation)
+# L0-TRE: Case Study One - Convergence Analysis and Global Robustness Evaluation
 
-This is the Matlab implementation for Case Study One in paper
+This is the Matlab implementation for Case Study One in
 
 Global Robustness Evaluation of Deep Neural Networks with Provable Guarantees for L0 Norm
 
