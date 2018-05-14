@@ -1,4 +1,4 @@
-#Tool: L0-TRE (Tensor-based Robustness Evaluation on DNN for L0-Norm)
+# Tool: L0-TRE (Tensor-based Robustness Evaluation on DNN for L0-Norm)
 
 Global Robustness Evaluation of Deep Neural Networks with Provable Guarantees for L0 Norm
 
