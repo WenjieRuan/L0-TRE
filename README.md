@@ -11,8 +11,8 @@ Deployment of deep neural networks (DNNs) in safety or security-critical systems
 
 
 # Sample Results
-![alt text](results/ImageNet_Sample_Saliency_Map.png)
-![alt text](results/CIFAR10_Sample_Adversary.png)
+![alt text](Documents/ImageNet_Sample_Saliency_Map.png)
+![alt text](Documents/CIFAR10_Sample_Adversary.png)
 
 # Run
 Please run this tool by referring to different case studies folders
@@ -35,6 +35,9 @@ archivePrefix = "arXiv",
 This tool is under active development and maintenance, please feel free to contact us about any problem encountered. 
 
 Contributors of the Case Studies:
+
 Case Study Three: Min Wu (min.wu@cs.ox.ac.uk)
+
 Case Study One, Two and Four: Wenjie Ruan (wenjie.ruan@cs.ox.ac.uk)
+
 Case Study Five: Youcheng Sun (youcheng.sun@cs.ox.ac.uk)
