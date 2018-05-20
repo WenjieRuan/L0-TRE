@@ -34,10 +34,14 @@ archivePrefix = "arXiv",
 # Remark
 This tool is under active development and maintenance, please feel free to contact us about any problem encountered. 
 
-Contributors of the Case Studies:
+# Contribution List of the Case Studies:
 
-Case Study Three: Min Wu (min.wu@cs.ox.ac.uk)
+Case Study One: Convergence Analysis and Global Robustness Evaluation (Wenjie Ruan, wenjie.ruan@cs.ox.ac.uk)
 
-Case Study One, Two and Four: Wenjie Ruan (wenjie.ruan@cs.ox.ac.uk)
+Case Study Two: Guidance for the Design of Robust DNN Architecture (Wenjie Ruan, wenjie.ruan@cs.ox.ac.uk)
 
-Case Study Five: Youcheng Sun (youcheng.sun@cs.ox.ac.uk)
+Case Study Three: Competitive L0 Attack (Min Wu, min.wu@cs.ox.ac.uk)
+
+Case Study Four: Saliency Map and Local Robustness Evaluation for Large-scale ImageNet DNN Models (Wenjie Ruan, wenjie.ruan@cs.ox.ac.uk)
+
+Case Study Five: DNNs Test Case Generation (Youcheng Sun, youcheng.sun@cs.ox.ac.uk)
