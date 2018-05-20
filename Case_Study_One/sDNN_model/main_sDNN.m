@@ -7,7 +7,7 @@
 
 clear
 load sDNN_model
-load MNIST_dataset_resize14
+load test_image
 layer = 'fc';
 
 maxIter = 3;
@@ -15,7 +15,7 @@ allResult = {};
 delta = floor(1/0.5);
 index_test_image = 12;
 t = 1;
-test_image = XTest(:,:,:,index_test_image);
+% test_image = XTest(:,:,:,index_test_image);
 [size_row, size_col, size_chl] = size(test_image);
 f0_all = activations(convnet,test_image,layer,'OutputAs','rows');
 [f0,index_f0] = max(f0_all);
@@ -40,6 +40,10 @@ while(t<=maxIter)
         fprintf('\n     Lower Bound of Maximum Radius of Safe L0-Norm Ball: L = %d\n\n',t);
     else
         d_m =t;
+        L(t) = t;
+        U(t) = t;
+        Uc(t) = (L(t)+U(t))/2;
+        Ur(t) = (U(t)-L(t))/2;
         fprintf('\n     Convergent at t = %d ! Maximum Radius of Safe L0-Norm Ball is found: d_m = %d\n\n',t, d_m);
         break;
     end
@@ -60,22 +64,27 @@ while(t<=maxIter)
     [test_image_adv,pixel_modify,f_label,adv_dis,succ_flag] = TightenUpperBound(test_image,test_image_adv,convnet,...
         layer, pixel_modify,val_modify,index_f0);
     
-    fprintf('\n     Tight Upper Bound of Maximum Radius of Safe L0-Norm Ball: U_tighten = %d \n',adv_dis);
-        L(t) = t;
-        U(t) = adv_dis;
-        Uc(t) = (L(t)+U(t))/2;
-        Ur(t) = (U(t)-L(t))/2;
-        image_upperbound{t} = test_image_adv;
-        
-        if t >1
-            if U(t) > U(t-1)
-                L(t) = L(t-1);
-                U(t) = U(t-1);
-                Uc(t) = Uc(t-1);
-                Ur(t) = Ur(t-1);
-                image_upperbound{t} = image_upperbound{t-1};
-            end
+    %     fprintf('\n     Tight Upper Bound of Maximum Radius of Safe L0-Norm Ball: U_tighten = %d \n',adv_dis);
+    L(t) = t;
+    U(t) = adv_dis;
+    Uc(t) = (L(t)+U(t))/2;
+    Ur(t) = (U(t)-L(t))/2;
+    image_upperbound{t} = test_image_adv;
+    
+    if t == 1
+        fprintf('\n      Tight Upper Bound of Maximum Radius of Safe L0-Norm Ball: U_tighten = %d \n',adv_dis);
+    end
+    
+    if t >1
+        if U(t) > U(t-1)
+            L(t) = L(t-1);
+            U(t) = U(t-1);
+            Uc(t) = Uc(t-1);
+            Ur(t) = Ur(t-1);
+            image_upperbound{t} = image_upperbound{t-1};
         end
+        fprintf('\n     Tight Upper Bound of Maximum Radius of Safe L0-Norm Ball: U_tighten = %d \n',U(t));
+    end
     
     if Ur(t)<=1
         d_m =U(t);
