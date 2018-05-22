@@ -18,6 +18,11 @@ Image Processing Toolbox
 
 Parallel Computing Toolbox
 
+# Sample Results
+
+![alt text](https://github.com/L0-TRE/L0-TRE/blob/master/Documents/Capture1.PNG)
+![alt text](https://github.com/L0-TRE/L0-TRE/blob/master/Documents/Capture2.PNG)
+
 # Run
 
 For sDNN model, run “main_sDNN.m” in folder sDNN_model
