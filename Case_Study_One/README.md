@@ -20,7 +20,7 @@ Parallel Computing Toolbox
 
 # Sample Results
 
-![alt text](Documents/Capture1.PNG)
+![alt text](master/Documents/Capture1.PNG)
 
 # Run
 
