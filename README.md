@@ -14,15 +14,11 @@ Deployment of deep neural networks (DNNs) in safety or security-critical systems
 
 ![alt text](Documents/Capture1.PNG)
 
-![alt text](Documents/Capture2.PNG)
-
-![alt text](Documents/Capture3.PNG)
-
 ![alt text](Documents/Capture4.PNG)
 
-![alt text](Documents/Capture5.PNG)
-
 ![alt text](Documents/Capture6.PNG)
+
+![alt text](Documents/Capture7.PNG)
 
 # Run
 Please run this tool by referring to different case studies folders
