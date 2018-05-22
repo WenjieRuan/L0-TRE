@@ -9,6 +9,10 @@ Wenjie Ruan, Min Wu, Youcheng Sun, Xiaowei Huang, Daniel Kroening, Marta Kwiatko
 arXiv:1804.05805 https://arxiv.org/abs/1804.05805
 
 
+# Sample Results
+![alt text](https://github.com/L0-TRE/L0-TRE/blob/master/Documents/Capture5.PNG)
+
+
 # Run
 
 Two examples:
