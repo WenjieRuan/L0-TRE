@@ -20,7 +20,7 @@ Parallel Computing Toolbox
 
 # Sample Results
 
-![alt text](master/Documents/Capture1.PNG)
+![alt text](https://github.com/L0-TRE/L0-TRE/blob/master/Documents/Capture1.PNG)
 
 # Run
 
