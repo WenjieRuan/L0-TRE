@@ -11,12 +11,11 @@ Deployment of deep neural networks (DNNs) in safety or security-critical systems
 
 
 # Sample Results
-```
+
 ![alt text](Documents/Capture1.PNG)
-```
-```
+
 ![alt text](Documents/Capture2.PNG)
-```
+
 ```
 ![alt text](Documents/Capture3.PNG)
 ```
