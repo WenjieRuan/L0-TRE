@@ -18,6 +18,10 @@ Image Processing Toolbox
 
 Parallel Computing Toolbox
 
+# Sample Results
+
+![alt text](Documents/Capture1.PNG)
+
 # Run
 
 For sDNN model, run “main_sDNN.m” in folder sDNN_model
