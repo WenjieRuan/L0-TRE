@@ -18,8 +18,12 @@ Image Processing Toolbox
 
 Parallel Computing Toolbox
 
+# Sample Results
+
+![alt text](https://github.com/L0-TRE/L0-TRE/blob/master/Documents/Capture3.PNG)
+
 # Run
 
-Set up maximum iteration "maxIter = 2", load "DNN6", set up testing image index range "index_test_image = 1:20", directly run "main.m". 
+Set up maximum iteration "maxIter = 2", load "DNN4", set up testing image index range "index_test_image = 1:2000", directly run "main.m". 
 
-You will get the global anytime-robustness of DNN6. Similarly, you can calculate the global anytime-robustness for DNN1, DNN2, ..., DNN7, and choose the a model balancing the robustness and generalization accuracy.
+You will get the global anytime-robustness of DNN4. Similarly, you can calculate the global anytime-robustness for DNN1, DNN2, ..., DNN7, and choose the a model balancing the robustness and generalization accuracy.
